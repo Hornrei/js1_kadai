@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <h1>東京の気温のグラフ</h1>
+    <div>
+      表示する月
+      <select class="months">
+        <option value="1月">1月</option>
+        <option value="2月">2月</option>
+        <option value="3月">3月</option>
+        <option value="4月">4月</option>
+        <option value="5月">5月</option>
+        <option value="6月">6月</option>
+        <option value="7月">7月</option>
+        <option value="8月">8月</option>
+        <option value="9月">9月</option>
+        <option value="10月">10月</option>
+        <option value="11月">11月</option>
+        <option value="12月">12月</option>
+      </select>
+    </div>
+    <div class="chart average">
+      <div class="label">
+        平年
+        <span class="monthLabel">1月</span>
+      </div>
+      <div class="bar"></div>
+      <div class="temperature">5.4</div>
+    </div>
+    <div class="chart lastYear">
+      <div class="label">
+        去年
+        <span class="monthLabel">1月</span>
+      </div>
+      <div class="bar"></div>
+      <div class="temperature">4.9</div>
+    </div>
+    <hr>
+    <div>去年20度を超えた月は <span class="over20"></span>個</div>
+  </body>
+</html>

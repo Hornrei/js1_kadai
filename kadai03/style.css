@@ -1,0 +1,26 @@
+* {
+  font-size: 25px;
+}
+
+td {
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.display {
+  padding: 0 20px;
+  text-align: right;
+}
+
+.operator input:checked{
+  background-color: rgb(30, 146, 248);
+}
+
+.error{
+  color: blue;
+}

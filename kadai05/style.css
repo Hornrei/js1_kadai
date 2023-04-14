@@ -1,0 +1,22 @@
+.chart {
+  display: flex;
+  margin: 10px 0;
+}
+
+.chart .label {
+  width: 100px;
+}
+
+.chart .bar {
+  text-align: right;
+}
+
+.chart.average .bar {
+  width: 54px;
+  background: blue;
+}
+
+.chart.lastYear .bar {
+  width: 49px;
+  background: red;
+}
